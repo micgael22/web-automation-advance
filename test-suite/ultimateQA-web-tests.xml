@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite | Project QA [selenium]"  parallel="tests" thread-count="2" verbose="1">
+
+    <listeners>
+        <listener class-name="components.TestListener"/>
+    </listeners>
+    <parameter name="WEB_URL" value="https://ultimateqa.com/automation"/>
+    <parameter name="TARGET" value="LOCAL"/>
+    <parameter name="BROWSER_TYPE" value="CHROME"/>
+    <parameter name="WEB_NAME" value="ULTIMATEQA"/>
+    <parameter name="ENVIRONMENT" value="TESTS"/>
+
+    <test name="ULTIMATE QA">
+
+    </test>
+</suite>
